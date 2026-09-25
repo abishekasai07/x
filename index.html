@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>ICC Champions Archive</title>
@@ -9,635 +11,1095 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
 
-    <!-- Header -->
+    <!-- =========================
+         HEADER
+    ========================== -->
     <header class="site-header">
+
         <div class="header-container">
-            <h1 class="site-title">ICC Champions Archive</h1>
+
+            <h1 class="site-title">
+                ICC Champions Archive
+            </h1>
+
             <p class="site-subtitle">
-                A historical archive of ICC Men's World Champions
+                A historical archive of ICC Men's Cricket Champions
             </p>
+
         </div>
+
     </header>
 
 
-    <!-- Navigation / Tournament Filters -->
-    <nav class="tournament-navigation" aria-label="Tournament filters">
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+    <nav class="tournament-navigation"
+         aria-label="Tournament filters">
+
         <div class="navigation-container">
 
             <button
                 class="filter-button active"
                 id="odi-filter"
                 type="button">
+
                 ODI World Cup
+
             </button>
+
 
             <button
                 class="filter-button"
                 id="t20-filter"
                 type="button">
+
                 T20 World Cup
+
             </button>
+
 
             <button
                 class="filter-button"
                 id="test-filter"
                 type="button">
+
                 World Test Championship
+
             </button>
 
         </div>
+
     </nav>
 
 
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
     <main class="main-content">
 
-        <!-- =====================================================
+
+        <!-- ==================================
              ODI WORLD CUP
-        ====================================================== -->
+        =================================== -->
+
         <section
             class="tournament-section"
             id="odi-world-cup">
 
             <div class="section-header">
+
                 <h2 class="section-title">
                     ICC Men's ODI World Cup Champions
                 </h2>
 
                 <p class="section-description">
-                    Historical winners of the ICC Men's ODI World Cup.
+                    Winners of the ICC Men's ODI World Cup.
                 </p>
+
             </div>
 
 
             <div class="champion-grid">
 
-                <!-- 1983 -->
+
+                <!-- 1975 - WEST INDIES -->
+
+                <article
+                    class="champion-card"
+                    data-tournament="odi"
+                    data-year="1975">
+
+                    <div class="champion-image">
+
+                        <img
+                            src="https://commons.wikimedia.org/wiki/Special:Redirect/file/WestIndiesCricketlogo.png"
+                            alt="West Indies cricket team logo"
+                            loading="lazy">
+
+                    </div>
+
+
+                    <div class="champion-details">
+
+                        <p class="champion-year">
+                            1975
+                        </p>
+
+                        <h3 class="champion-country">
+                            West Indies
+                        </h3>
+
+                        <p class="tournament-name">
+                            ODI World Cup
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- 1979 - WEST INDIES -->
+
+                <article
+                    class="champion-card"
+                    data-tournament="odi"
+                    data-year="1979">
+
+                    <div class="champion-image">
+
+                        <img
+                            src="https://commons.wikimedia.org/wiki/Special:Redirect/file/WestIndiesCricketlogo.png"
+                            alt="West Indies cricket team logo"
+                            loading="lazy">
+
+                    </div>
+
+
+                    <div class="champion-details">
+
+                        <p class="champion-year">
+                            1979
+                        </p>
+
+                        <h3 class="champion-country">
+                            West Indies
+                        </h3>
+
+                        <p class="tournament-name">
+                            ODI World Cup
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- 1983 - INDIA -->
+
                 <article
                     class="champion-card"
                     data-tournament="odi"
                     data-year="1983">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket stadium representing India 1983 ODI World Cup"
+                            alt="India cricket team - 1983 ODI World Cup"
                             loading="lazy">
+
                     </div>
 
+
                     <div class="champion-details">
-                        <p class="champion-year">1983</p>
-                        <h3 class="champion-country">India</h3>
-                        <p class="tournament-name">ODI World Cup</p>
+
+                        <p class="champion-year">
+                            1983
+                        </p>
+
+                        <h3 class="champion-country">
+                            India
+                        </h3>
+
+                        <p class="tournament-name">
+                            ODI World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 1987 -->
+
+                <!-- 1987 - AUSTRALIA -->
+
                 <article
                     class="champion-card"
                     data-tournament="odi"
                     data-year="1987">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket stadium representing Australia 1987 ODI World Cup"
+                            alt="Australia cricket team - 1987 ODI World Cup"
                             loading="lazy">
+
                     </div>
 
+
                     <div class="champion-details">
-                        <p class="champion-year">1987</p>
-                        <h3 class="champion-country">Australia</h3>
-                        <p class="tournament-name">ODI World Cup</p>
+
+                        <p class="champion-year">
+                            1987
+                        </p>
+
+                        <h3 class="champion-country">
+                            Australia
+                        </h3>
+
+                        <p class="tournament-name">
+                            ODI World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 1992 -->
+
+                <!-- 1992 - PAKISTAN -->
+
                 <article
                     class="champion-card"
                     data-tournament="odi"
                     data-year="1992">
 
                     <div class="champion-image">
+
                         <img
-                            src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket match representing Pakistan 1992 ODI World Cup"
+                            src="https://images.unsplash.com/photo-1593766827228-8737b6cd7f25?auto=format&fit=crop&w=800&q=80"
+                            alt="Pakistan cricket team - 1992 ODI World Cup"
                             loading="lazy">
+
                     </div>
 
+
                     <div class="champion-details">
-                        <p class="champion-year">1992</p>
-                        <h3 class="champion-country">Pakistan</h3>
-                        <p class="tournament-name">ODI World Cup</p>
+
+                        <p class="champion-year">
+                            1992
+                        </p>
+
+                        <h3 class="champion-country">
+                            Pakistan
+                        </h3>
+
+                        <p class="tournament-name">
+                            ODI World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 1996 -->
+
+                <!-- 1996 - SRI LANKA -->
+
                 <article
                     class="champion-card"
                     data-tournament="odi"
                     data-year="1996">
 
                     <div class="champion-image">
+
                         <img
-                            src="https://images.unsplash.com/photo-1593766827228-8737b6cd7f25?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket match representing Sri Lanka 1996 ODI World Cup"
+                            src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Screenshot_20220922-131123_Gallery.jpg"
+                            alt="Sri Lanka cricket team logo"
                             loading="lazy">
+
                     </div>
 
+
                     <div class="champion-details">
-                        <p class="champion-year">1996</p>
-                        <h3 class="champion-country">Sri Lanka</h3>
-                        <p class="tournament-name">ODI World Cup</p>
+
+                        <p class="champion-year">
+                            1996
+                        </p>
+
+                        <h3 class="champion-country">
+                            Sri Lanka
+                        </h3>
+
+                        <p class="tournament-name">
+                            ODI World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 1999 -->
+
+                <!-- 1999 - AUSTRALIA -->
+
                 <article
                     class="champion-card"
                     data-tournament="odi"
                     data-year="1999">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket stadium representing Australia 1999 ODI World Cup"
+                            alt="Australia cricket team - 1999 ODI World Cup"
                             loading="lazy">
+
                     </div>
 
+
                     <div class="champion-details">
-                        <p class="champion-year">1999</p>
-                        <h3 class="champion-country">Australia</h3>
-                        <p class="tournament-name">ODI World Cup</p>
+
+                        <p class="champion-year">
+                            1999
+                        </p>
+
+                        <h3 class="champion-country">
+                            Australia
+                        </h3>
+
+                        <p class="tournament-name">
+                            ODI World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2003 -->
+
+                <!-- 2003 - AUSTRALIA -->
+
                 <article
                     class="champion-card"
                     data-tournament="odi"
                     data-year="2003">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket stadium representing Australia 2003 ODI World Cup"
+                            alt="Australia cricket team - 2003 ODI World Cup"
                             loading="lazy">
+
                     </div>
 
+
                     <div class="champion-details">
-                        <p class="champion-year">2003</p>
-                        <h3 class="champion-country">Australia</h3>
-                        <p class="tournament-name">ODI World Cup</p>
+
+                        <p class="champion-year">
+                            2003
+                        </p>
+
+                        <h3 class="champion-country">
+                            Australia
+                        </h3>
+
+                        <p class="tournament-name">
+                            ODI World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2007 -->
+
+                <!-- 2007 - AUSTRALIA -->
+
                 <article
                     class="champion-card"
                     data-tournament="odi"
                     data-year="2007">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket match representing Australia 2007 ODI World Cup"
+                            alt="Australia cricket team - 2007 ODI World Cup"
                             loading="lazy">
+
                     </div>
 
+
                     <div class="champion-details">
-                        <p class="champion-year">2007</p>
-                        <h3 class="champion-country">Australia</h3>
-                        <p class="tournament-name">ODI World Cup</p>
+
+                        <p class="champion-year">
+                            2007
+                        </p>
+
+                        <h3 class="champion-country">
+                            Australia
+                        </h3>
+
+                        <p class="tournament-name">
+                            ODI World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2011 -->
+
+                <!-- 2011 - INDIA -->
+
                 <article
                     class="champion-card"
                     data-tournament="odi"
                     data-year="2011">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket stadium representing India 2011 ODI World Cup"
+                            alt="India cricket team - 2011 ODI World Cup"
                             loading="lazy">
+
                     </div>
 
+
                     <div class="champion-details">
-                        <p class="champion-year">2011</p>
-                        <h3 class="champion-country">India</h3>
-                        <p class="tournament-name">ODI World Cup</p>
+
+                        <p class="champion-year">
+                            2011
+                        </p>
+
+                        <h3 class="champion-country">
+                            India
+                        </h3>
+
+                        <p class="tournament-name">
+                            ODI World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2015 -->
+
+                <!-- 2015 - AUSTRALIA -->
+
                 <article
                     class="champion-card"
                     data-tournament="odi"
                     data-year="2015">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket stadium representing Australia 2015 ODI World Cup"
+                            alt="Australia cricket team - 2015 ODI World Cup"
                             loading="lazy">
+
                     </div>
 
+
                     <div class="champion-details">
-                        <p class="champion-year">2015</p>
-                        <h3 class="champion-country">Australia</h3>
-                        <p class="tournament-name">ODI World Cup</p>
+
+                        <p class="champion-year">
+                            2015
+                        </p>
+
+                        <h3 class="champion-country">
+                            Australia
+                        </h3>
+
+                        <p class="tournament-name">
+                            ODI World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2019 -->
+
+                <!-- 2019 - ENGLAND -->
+
                 <article
                     class="champion-card"
                     data-tournament="odi"
                     data-year="2019">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1593766827228-8737b6cd7f25?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket match representing England 2019 ODI World Cup"
+                            alt="England cricket team - 2019 ODI World Cup"
                             loading="lazy">
+
                     </div>
 
+
                     <div class="champion-details">
-                        <p class="champion-year">2019</p>
-                        <h3 class="champion-country">England</h3>
-                        <p class="tournament-name">ODI World Cup</p>
+
+                        <p class="champion-year">
+                            2019
+                        </p>
+
+                        <h3 class="champion-country">
+                            England
+                        </h3>
+
+                        <p class="tournament-name">
+                            ODI World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2023 -->
+
+                <!-- 2023 - AUSTRALIA -->
+
                 <article
                     class="champion-card"
                     data-tournament="odi"
                     data-year="2023">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket stadium representing Australia 2023 ODI World Cup"
+                            alt="Australia cricket team - 2023 ODI World Cup"
                             loading="lazy">
+
                     </div>
 
+
                     <div class="champion-details">
-                        <p class="champion-year">2023</p>
-                        <h3 class="champion-country">Australia</h3>
-                        <p class="tournament-name">ODI World Cup</p>
+
+                        <p class="champion-year">
+                            2023
+                        </p>
+
+                        <h3 class="champion-country">
+                            Australia
+                        </h3>
+
+                        <p class="tournament-name">
+                            ODI World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
             </div>
+
         </section>
 
 
-        <!-- =====================================================
+
+        <!-- ==================================
              T20 WORLD CUP
-        ====================================================== -->
+        =================================== -->
+
         <section
             class="tournament-section"
             id="t20-world-cup">
 
             <div class="section-header">
+
                 <h2 class="section-title">
                     ICC Men's T20 World Cup Champions
                 </h2>
 
                 <p class="section-description">
-                    Historical winners of the ICC Men's T20 World Cup.
+                    Winners of the ICC Men's T20 World Cup.
                 </p>
+
             </div>
 
 
             <div class="champion-grid">
 
-                <!-- 2007 -->
+
+                <!-- 2007 - INDIA -->
+
                 <article
                     class="champion-card"
                     data-tournament="t20"
                     data-year="2007">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket stadium representing India 2007 T20 World Cup"
+                            alt="India cricket team - 2007 T20 World Cup"
                             loading="lazy">
+
                     </div>
 
                     <div class="champion-details">
-                        <p class="champion-year">2007</p>
-                        <h3 class="champion-country">India</h3>
-                        <p class="tournament-name">T20 World Cup</p>
+
+                        <p class="champion-year">
+                            2007
+                        </p>
+
+                        <h3 class="champion-country">
+                            India
+                        </h3>
+
+                        <p class="tournament-name">
+                            T20 World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2009 -->
+
+                <!-- 2009 - PAKISTAN -->
+
                 <article
                     class="champion-card"
                     data-tournament="t20"
                     data-year="2009">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1593766827228-8737b6cd7f25?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket match representing Pakistan 2009 T20 World Cup"
+                            alt="Pakistan cricket team - 2009 T20 World Cup"
                             loading="lazy">
+
                     </div>
 
                     <div class="champion-details">
-                        <p class="champion-year">2009</p>
-                        <h3 class="champion-country">Pakistan</h3>
-                        <p class="tournament-name">T20 World Cup</p>
+
+                        <p class="champion-year">
+                            2009
+                        </p>
+
+                        <h3 class="champion-country">
+                            Pakistan
+                        </h3>
+
+                        <p class="tournament-name">
+                            T20 World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2010 -->
+
+                <!-- 2010 - ENGLAND -->
+
                 <article
                     class="champion-card"
                     data-tournament="t20"
                     data-year="2010">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket stadium representing England 2010 T20 World Cup"
+                            alt="England cricket team - 2010 T20 World Cup"
                             loading="lazy">
+
                     </div>
 
                     <div class="champion-details">
-                        <p class="champion-year">2010</p>
-                        <h3 class="champion-country">England</h3>
-                        <p class="tournament-name">T20 World Cup</p>
+
+                        <p class="champion-year">
+                            2010
+                        </p>
+
+                        <h3 class="champion-country">
+                            England
+                        </h3>
+
+                        <p class="tournament-name">
+                            T20 World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2012 -->
+
+                <!-- 2012 - WEST INDIES -->
+
                 <article
                     class="champion-card"
                     data-tournament="t20"
                     data-year="2012">
 
                     <div class="champion-image">
+
                         <img
-                            src="https://images.unsplash.com/photo-1593766827228-8737b6cd7f25?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket match representing West Indies 2012 T20 World Cup"
+                            src="https://commons.wikimedia.org/wiki/Special:Redirect/file/WestIndiesCricketlogo.png"
+                            alt="West Indies cricket team logo"
                             loading="lazy">
+
                     </div>
 
                     <div class="champion-details">
-                        <p class="champion-year">2012</p>
-                        <h3 class="champion-country">West Indies</h3>
-                        <p class="tournament-name">T20 World Cup</p>
+
+                        <p class="champion-year">
+                            2012
+                        </p>
+
+                        <h3 class="champion-country">
+                            West Indies
+                        </h3>
+
+                        <p class="tournament-name">
+                            T20 World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2014 -->
+
+                <!-- 2014 - SRI LANKA -->
+
                 <article
                     class="champion-card"
                     data-tournament="t20"
                     data-year="2014">
 
                     <div class="champion-image">
+
                         <img
-                            src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket stadium representing Sri Lanka 2014 T20 World Cup"
+                            src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Screenshot_20220922-131123_Gallery.jpg"
+                            alt="Sri Lanka cricket team logo"
                             loading="lazy">
+
                     </div>
 
                     <div class="champion-details">
-                        <p class="champion-year">2014</p>
-                        <h3 class="champion-country">Sri Lanka</h3>
-                        <p class="tournament-name">T20 World Cup</p>
+
+                        <p class="champion-year">
+                            2014
+                        </p>
+
+                        <h3 class="champion-country">
+                            Sri Lanka
+                        </h3>
+
+                        <p class="tournament-name">
+                            T20 World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2016 -->
+
+                <!-- 2016 - WEST INDIES -->
+
                 <article
                     class="champion-card"
                     data-tournament="t20"
                     data-year="2016">
 
                     <div class="champion-image">
+
                         <img
-                            src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket match representing West Indies 2016 T20 World Cup"
+                            src="https://commons.wikimedia.org/wiki/Special:Redirect/file/WestIndiesCricketlogo.png"
+                            alt="West Indies cricket team logo"
                             loading="lazy">
+
                     </div>
 
                     <div class="champion-details">
-                        <p class="champion-year">2016</p>
-                        <h3 class="champion-country">West Indies</h3>
-                        <p class="tournament-name">T20 World Cup</p>
+
+                        <p class="champion-year">
+                            2016
+                        </p>
+
+                        <h3 class="champion-country">
+                            West Indies
+                        </h3>
+
+                        <p class="tournament-name">
+                            T20 World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2021 -->
+
+                <!-- 2021 - AUSTRALIA -->
+
                 <article
                     class="champion-card"
                     data-tournament="t20"
                     data-year="2021">
 
                     <div class="champion-image">
+
                         <img
-                            src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket stadium representing Australia 2021 T20 World Cup"
+                            src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=800&q=80"
+                            alt="Australia cricket team - 2021 T20 World Cup"
                             loading="lazy">
+
                     </div>
 
                     <div class="champion-details">
-                        <p class="champion-year">2021</p>
-                        <h3 class="champion-country">Australia</h3>
-                        <p class="tournament-name">T20 World Cup</p>
+
+                        <p class="champion-year">
+                            2021
+                        </p>
+
+                        <h3 class="champion-country">
+                            Australia
+                        </h3>
+
+                        <p class="tournament-name">
+                            T20 World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2022 -->
+
+                <!-- 2022 - ENGLAND -->
+
                 <article
                     class="champion-card"
                     data-tournament="t20"
                     data-year="2022">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1593766827228-8737b6cd7f25?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket match representing England 2022 T20 World Cup"
+                            alt="England cricket team - 2022 T20 World Cup"
                             loading="lazy">
+
                     </div>
 
                     <div class="champion-details">
-                        <p class="champion-year">2022</p>
-                        <h3 class="champion-country">England</h3>
-                        <p class="tournament-name">T20 World Cup</p>
+
+                        <p class="champion-year">
+                            2022
+                        </p>
+
+                        <h3 class="champion-country">
+                            England
+                        </h3>
+
+                        <p class="tournament-name">
+                            T20 World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2024 -->
+
+                <!-- 2024 - INDIA -->
+
                 <article
                     class="champion-card"
                     data-tournament="t20"
                     data-year="2024">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket stadium representing India 2024 T20 World Cup"
+                            alt="India cricket team - 2024 T20 World Cup"
                             loading="lazy">
+
                     </div>
 
                     <div class="champion-details">
-                        <p class="champion-year">2024</p>
-                        <h3 class="champion-country">India</h3>
-                        <p class="tournament-name">T20 World Cup</p>
+
+                        <p class="champion-year">
+                            2024
+                        </p>
+
+                        <h3 class="champion-country">
+                            India
+                        </h3>
+
+                        <p class="tournament-name">
+                            T20 World Cup
+                        </p>
+
                     </div>
 
                 </article>
 
             </div>
+
         </section>
 
 
-        <!-- =====================================================
+
+        <!-- ==================================
              WORLD TEST CHAMPIONSHIP
-        ====================================================== -->
+        =================================== -->
+
         <section
             class="tournament-section"
             id="world-test-championship">
 
             <div class="section-header">
+
                 <h2 class="section-title">
                     ICC World Test Championship Winners
                 </h2>
 
                 <p class="section-description">
-                    Historical winners of the ICC World Test Championship.
+                    Winners of the ICC World Test Championship.
                 </p>
+
             </div>
 
 
             <div class="champion-grid">
 
-                <!-- 2021 -->
+
+                <!-- 2021 - NEW ZEALAND -->
+
                 <article
                     class="champion-card"
                     data-tournament="test"
                     data-year="2021">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket stadium representing New Zealand 2021 World Test Championship"
+                            alt="New Zealand cricket team - 2021 World Test Championship"
                             loading="lazy">
+
                     </div>
 
                     <div class="champion-details">
-                        <p class="champion-year">2021</p>
-                        <h3 class="champion-country">New Zealand</h3>
-                        <p class="tournament-name">World Test Championship</p>
+
+                        <p class="champion-year">
+                            2021
+                        </p>
+
+                        <h3 class="champion-country">
+                            New Zealand
+                        </h3>
+
+                        <p class="tournament-name">
+                            World Test Championship
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2023 -->
+
+                <!-- 2023 - AUSTRALIA -->
+
                 <article
                     class="champion-card"
                     data-tournament="test"
                     data-year="2023">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket stadium representing Australia 2023 World Test Championship"
+                            alt="Australia cricket team - 2023 World Test Championship"
                             loading="lazy">
+
                     </div>
 
                     <div class="champion-details">
-                        <p class="champion-year">2023</p>
-                        <h3 class="champion-country">Australia</h3>
-                        <p class="tournament-name">World Test Championship</p>
+
+                        <p class="champion-year">
+                            2023
+                        </p>
+
+                        <h3 class="champion-country">
+                            Australia
+                        </h3>
+
+                        <p class="tournament-name">
+                            World Test Championship
+                        </p>
+
                     </div>
 
                 </article>
 
 
-                <!-- 2025 -->
+
+                <!-- 2025 - SOUTH AFRICA -->
+
                 <article
                     class="champion-card"
                     data-tournament="test"
                     data-year="2025">
 
                     <div class="champion-image">
+
                         <img
                             src="https://images.unsplash.com/photo-1593766827228-8737b6cd7f25?auto=format&fit=crop&w=800&q=80"
-                            alt="Cricket match representing South Africa 2025 World Test Championship"
+                            alt="South Africa cricket team - 2025 World Test Championship"
                             loading="lazy">
+
                     </div>
 
                     <div class="champion-details">
-                        <p class="champion-year">2025</p>
-                        <h3 class="champion-country">South Africa</h3>
-                        <p class="tournament-name">World Test Championship</p>
+
+                        <p class="champion-year">
+                            2025
+                        </p>
+
+                        <h3 class="champion-country">
+                            South Africa
+                        </h3>
+
+                        <p class="tournament-name">
+                            World Test Championship
+                        </p>
+
                     </div>
 
                 </article>
 
             </div>
+
         </section>
 
     </main>
 
 
-    <!-- Footer -->
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
     <footer class="site-footer">
-        <p>&copy; 2026 ICC Champions Archive</p>
+
+        <p>
+            &copy; 2026 ICC Champions Archive
+        </p>
+
     </footer>
+
 
 
     <!-- JavaScript -->
     <script src="script.js"></script>
 
 </body>
+
 </html>
